@@ -86,8 +86,8 @@ label_szczegoly_obiektu_surname=Label(ramka_szczegoly_obiektu, text='Nazwisko:')
 label_szczegoly_obiektu_surname.grid(row=1, column=2)
 
 
-label_szczegoly_obiektu_surname_wartosci=Label(ramka_szczegoly_obiektu, text='....')
-label_szczegoly_obiektu_name_wartosc.grid(row=1, column=3)
+label_szczegoly_obiektu_surname_wartosc=Label(ramka_szczegoly_obiektu, text='....')
+label_szczegoly_obiektu_surname_wartosc.grid(row=1, column=3)
 
 
 label_szczegoly_obiektu_miejscowosc=Label(ramka_szczegoly_obiektu, text='Miejscowość:')
