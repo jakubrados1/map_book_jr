@@ -11,7 +11,7 @@ def add_user()->None:
     posts = entry_post.get()
 
     user = {'name':name,'surname': surname, 'location': location, 'posts': posts}
-    user.append(user)
+    users.append(user)
     print(users)
 
     entry_imie.delete(0, END)
