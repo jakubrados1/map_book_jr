@@ -109,7 +109,7 @@ def show_user_details():
     label_szczegoly_obiektu_miejscowosc_wartosc.config(text=users[i].location)
     label_szczegoly_obiektu_post_wartosc.config(text=users[i].posts)
     map_widget.set_zoom(15)
-    map_widget.set_position(users[1].coordinates[0], users[1].coordinates[1])
+    map_widget.set_position(users[i].coordinates[0], users[i].coordinates[1])
 
 
 root = Tk()
